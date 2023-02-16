@@ -1,4 +1,4 @@
-# PID Controlled Object Positioning System
+# PID Controlled Object Positioning System Project
 
 ## Table of Contents
 
@@ -71,4 +71,4 @@ Additionally, the use of Unity and C# enables the creation of virtual prototypes
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource/MIT).
+This project is licensed under the [MIT License](https://github.com/onurulusoy4/PID-Controlled-Object-Positioning-System/blob/master/LICENSE).
