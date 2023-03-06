@@ -2,17 +2,17 @@ function y = pi_controller(u)
 
     % Initialize variables
 
-    persistent y_prev;
-    persistent u_prev;
-    if isempty(y_prev)
-        y_prev = 0;
-        u_prev = 0;
+    persistent y_prev_pi;
+    persistent u_prev_pi;
+    if isempty(y_prev_pi)
+        y_prev_pi = 0;
+        u_prev_pi = 0;
     end
 
     % Calculate output using difference equation
-    y = y_prev - 22*u + 21.56*u_prev;
+    y = y_prev_pi - 22*u + 21.56*u_prev_pi;
     
     % Update previous output value
-    y_prev = y;
-    u_prev = u;
+    y_prev_pi = y;
+    u_prev_pi = u;
 end
